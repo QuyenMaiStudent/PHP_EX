@@ -35,7 +35,7 @@
         <?php foreach ($products as $p): ?>
         <tr>
             <td><?= $p["name"] ?></td>
-            <td <? if ($p["price"] > 1000000) echo 'style="background:yellow"'  ?>><?= $p["price"] ?></td>
+            <td <? if ($p["price"] > 1000000) echo 'style="background:yellow"'  ?>><?= number_format($p["price"], 0, ",", ".") ?></td>
             <td><?= $p["desc"] ?></td>
         </tr>
         <?php endforeach; ?>
