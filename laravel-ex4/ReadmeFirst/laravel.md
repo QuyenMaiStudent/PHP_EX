@@ -2,12 +2,12 @@
 
 ## 1. Tạo dự án Laravel mới
 ```sh
-composer new Tên_dự_án
+laravel new Tên_dự_án
 ```
 - Chọn `react` Khi muốn sử dụng giao diện của React
-- Chọn `none`
-- Chọn `1`.
-- Chọn `yes` để chạy `npm install` và `npm build`
+- Chọn `none` Nếu không muốn cài thêm tính năng xác thực
+- Chọn `1` 
+- Chọn `yes` để chạy `npm install` và `npm build` tự động
 
 ## 3. Cấu hình môi trường
 - Sửa thông tin database trong file `.env `:
